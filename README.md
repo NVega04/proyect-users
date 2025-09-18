@@ -21,10 +21,12 @@ El sistema permite la creación de un usuario con información personal y firma,
 ## Instalación
 
 **1. Clonar el repositorio**
+
 git clone https://github.com/NVega04/syscom
 cd syscom
 
 **2. Instalar dependencias**
+
 composer install
 
 **3. Configuración archivo “.env”**
@@ -39,10 +41,12 @@ DB_USERNAME=
 DB_PASSWORD=
 
 **4.Ejecutar los siguientes comandos, para migraciones y seeders**
+
 php artisan migrate
 php artisan db:seed
 
 **5. Para ejecutar la aplicación**
+
 composer run dev
 
 # Funcionalidades principales
