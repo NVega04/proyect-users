@@ -45,7 +45,12 @@ DB_PASSWORD=
 php artisan migrate
 php artisan db:seed
 
-**5. Para ejecutar la aplicación**
+**5.Crear la llave de la aplicación**
+
+php artisan key:generate
+
+
+**6. Para ejecutar la aplicación**
 
 composer run dev
 

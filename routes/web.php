@@ -4,6 +4,9 @@ use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 //User registration
+Route::get('/', function (){
+    return to_route('view_users');
+});
 Route::get('/user-register', [UserController::class, 'viewUser'])->name('view_users');
 Route::post('/form-user', [UserController::class, 'formUser'])->name('send_form');
 
