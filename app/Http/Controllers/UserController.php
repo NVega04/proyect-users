@@ -40,6 +40,7 @@ class UserController extends Controller
         
         try {
             $user->save();
+            $request->session()->flash('mensaje', 'Usuario creado con éxito');
             return to_route('view_table');
         } catch(Exception) {
             return to_route('view_users');
@@ -71,6 +72,7 @@ class UserController extends Controller
             ->delete();
 
         try {
+            $request->session()->flash('mensaje', 'Registro de usuario eliminado');
             return to_route('view_table');
         } catch(Exception) {
             return to_route('view_table');
@@ -113,6 +115,7 @@ class UserController extends Controller
         }
 
         try {
+            $request->session()->flash('mensaje', 'Registro de usuario editado con éxito');
             $user->save();
             return to_route('view_table');
         } catch(Exception) {
