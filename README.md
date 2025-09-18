@@ -69,4 +69,9 @@ composer run dev
 - **DaisyUI y Tailwind**: Se usaron a fin de trabajar el Frontend y darle estilo a los componentes del HTML.  
 
 
+# Backup
+
+El backup de la base de datos **syscom** quedo en la raíz del proyecto **users-syscom** en la carpeta llamada **backup.sql**.
+
+
 
