@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.42, for Linux (x86_64)
 --
--- Host: localhost    Database: syscom
+-- Host: localhost    Database: proyect_users
 -- ------------------------------------------------------
 -- Server version	8.0.42
 
