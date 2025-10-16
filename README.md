@@ -1,5 +1,5 @@
 
-# Proyecto: Users Syscom
+# Proyecto: CRUD creación de usuarios
 
 Este proyecto ha sido desarrollado en **Laravel 12**.  
 El sistema permite la creación de un usuario con información personal y firma, la firma se usa para la creación del contrato con los datos de usuario y la foto de la firma.
@@ -22,8 +22,8 @@ El sistema permite la creación de un usuario con información personal y firma,
 
 **1. Clonar el repositorio**
 
-git clone https://github.com/NVega04/syscom
-cd syscom
+git clone https://github.com/NVega04/****
+cd ****
 
 **2. Instalar dependencias**
 
@@ -66,7 +66,7 @@ composer run dev
 
 # Notas adicionales
 
-- **Tabla usuarios**: Se creó una tabla diferente a `user` (por defecto entregada por Laravel), ya que se brindó prioridad a cubrir al pie de la letra los requerimientos de la tabla `Usuarios`.  
+- **Tabla usuarios**: Se creó una tabla diferente a `user` (por defecto entregada por Laravel), a fin de trabajar con la tabla `Usuarios`.  
 - **Uso seeders**: Los seeders generan un registro automático del nombre del cargo, para la tabla `Roles`, debido a que no existe registro manual de estos datos.  
 - **Signature Pad**: Librería que brinda la herramienta para dibujar la firma y la posibilidad de guardarla como una URL.  
 - **Laravel DOM PDF**: Se utilizó para generar el PDF a partir de plantillas de Blade.  
@@ -76,7 +76,7 @@ composer run dev
 
 # Backup
 
-El backup de la base de datos **syscom** quedo en la raíz del proyecto **users-syscom** en la carpeta llamada **backup.sql**.
+El backup de la base de datos **users** quedo en la raíz del proyecto **proyect_users** en la carpeta llamada **backup.sql**.
 
 
 
