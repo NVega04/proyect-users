@@ -1,8 +1,8 @@
 
 # Proyecto: Users Syscom
 
-Este proyecto se acopla a los requerimientos de la prueba técnica para el cargo de Desarrollador con la empresa **Syscom Colombia**, ha sido desarrollado en **Laravel 12**.  
-El sistema permite la creación de un usuario con información personal y firma, esta última se usa para la creación del contrato con los datos de usuario y firma.
+Este proyecto ha sido desarrollado en **Laravel 12**.  
+El sistema permite la creación de un usuario con información personal y firma, la firma se usa para la creación del contrato con los datos de usuario y la foto de la firma.
 
 ---
 
