@@ -22,8 +22,9 @@ El sistema permite la creación de un usuario con información personal y firma,
 
 **1. Clonar el repositorio**
 
-git clone https://github.com/NVega04/****
-cd ****
+git clone https://github.com/NVega04/proyect-users
+
+cd proyect-users
 
 **2. Instalar dependencias**
 
