@@ -5,15 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ $title ?? 'USUARIOS SYSCOM' }}</title>
+    <title>{{ $title ?? 'USUARIOS' }}</title>
     @vite('resources/css/app.css')
 </head>
 
 <body>
     <div class="navbar  bg-[#193654] shadow-sm text-white">
-        <img src="{{ asset('/img/logo.jpeg') }}" style="width: 100px" alt="logo">
         <div class="flex-1">
-            <a href="/user-register" class="btn btn-ghost text-xl">USUARIOS SYSCOM</a>
+            <a href="/user-register" class="btn btn-ghost text-xl">CREACIÓN DE USUARIOS</a>
         </div>
         <div class="flex-none">
             <ul class="menu menu-horizontal px-1">
@@ -63,7 +62,7 @@
             </div>
         </nav>
         <aside>
-            <p>Copyright © {{ now()->year }} - SYSCOM COLOMBIA</p>
+            <p>Copyright © {{ now()->year }} - EMPRESA COLOMBIA</p>
         </aside>
     </footer>
 </body>

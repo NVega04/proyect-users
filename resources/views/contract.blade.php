@@ -7,10 +7,9 @@
     <title>Contrato</title>
 </head>
 <body>
-    <img src="/resources/img/logo.jpeg" alt="Logo" style="width: 110px">
     <center><h1>CONTRATO A TÉRMINO INDEFINIDO</h1></center>
     <p>
-        Entre los suscritos, SYSCOM COLOMBIA, identificada con NIT 900.000.000-0, con domicilio en Bogotá D.C., 
+        Entre los suscritos, EMPRESA COLOMBIA, identificada con NIT 900.000.000-0, con domicilio en Bogotá D.C., 
         quien en adelante se denominará EL EMPLEADOR y por otra parte {{ $user->name }}, quien en adelante se denominará 
         EL TRABAJADOR, hemos convenido en celebrar el presente contrato laboral el día {{ $user->entry_date }}, 
         para el cargo de {{ $user->rol->nombre_cargo }}, el cual se regirá por las siguientes cláusulas:
